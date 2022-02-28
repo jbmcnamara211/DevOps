@@ -1,2 +1,2 @@
 From tomcat:latest
-COPY ./webapp.war /home/dockeradmin
+COPY ./webapp.war /usr/local/tomact/webapps
