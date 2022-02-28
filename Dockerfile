@@ -1,3 +1,2 @@
-From tomcat:8-jre8 
-COPY ./webapp.war /usr/local/tomcat/webapps
-
+From tomcat:latest
+COPY ./webapp.war /home/dockeradmin
